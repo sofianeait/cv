@@ -1,0 +1,33 @@
+.adroite {
+	width=50%;
+	float:right;
+}
+.agauche{
+	width=50%;
+    float:left;
+	}
+.formation {
+	clear:both;
+	width=100%;
+	float:left;
+}
+.experience{
+	clear:both;
+	width=100%;
+	float:left;
+}
+.competence{
+	clear:both;
+	width=100%;
+	float:left;
+}
+.langue{
+	clear:both;
+	width=100%;
+	float:left;
+}	
+.centreinteret{
+	clear:both;
+	width=100%;
+	float:left;
+}
