@@ -1,43 +1,155 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<meta charst="utf-8" />
-	<title> CV AIT OTMANE Sofiane </title>
-	<link rel="stylesheet" href="cv.css"/>
-	</head>
-	<body>
-		<h1>Etat Civil</h1>
-		<h4>AIT OTMANE Sofiane</h4>
-		<div class="adroite">
-			<img src="sofiane.JPG" alt="Photo"/>
-		</div>
-		<div class="agauche">
-			<ul>
-				<li><strong>Adresse :</strong> 7 cours dr Jean Damidot 69100, Villeurbanne</li>
-				<li><strong>Email:</strong><a href="mailto:ait.otmane.sofiane@gmail.com">ait.otmane.sofiane@gmail.com</a></li>
-				<li><strong>Numéro de téléphone:</strong>+33782288797</li>
-			</ul>
-		</div>
-		<div class="formation">
-		<h1>Formations</h1>
-		<p><strong>Master2 (2018 - 2019):</strong>Compétences complémentaires en informatique, Université Claude Bernard,Lyon</p>
-		<p><strong>Master2 (2017 - 2018):</strong>Energie et Environnement, Université Pierre et Marie Curie, Paris</p>
-		<p><strong>Licence (2014 - 2015):</strong>Sciences de l'ingénieur Mécanique, Université du Mans, Le Mans</p>
-		<p><strong>Licence (2013 - 2014):</strong>Aéronautique parcours Propulsion d'avions, Université de Blida (Algérie)</p>
-		<p><strong>Baccalauréat (2011):</strong>Mathémathiques, Lycée de Barbacha, Algérie</p> 
-		</div>
-		<div class="experience">
-		<h1>Expériences</h1>
-		</div>
-		<div class="competence">
-		<h1>Compétences</h1>
-		</div>
-		<div class="langue">
-		<h1>Langues</h1>
-		</div>
-		<div class="centreinteret">
-		<h1>Centres d'intérêt</h1>
+<head>
+<title>CV AIT OTMANE Sofiane</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="CV AIT OTMANE Sofiane."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="cv.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+
+<! - fichier javascript ->
+	<script type="text/javascript" src="java-cv.js"></script >
+  
+</head>
+<body id="top">
+<input id="progress_bar" oninput="myScroll()" class="ml-slider_container" type="range"  min="0" max="100" value="70" tabindex="10">
+
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="sofiane.JPG" alt="Photo Sofiane" />
 		</div>
 		
-	</body>
+		<div id="name">
+			<h1 class="quickFade delayTwo">AIT OTMANE</h1>
+			<h2 class="quickFade delayThree">CV</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+		<p>adresse: 7 cours dr Jean Damidot<br/>
+		69100, Villeurbanne</p>
+			<ul>
+				<li>e: <a href="mailto:ait.otmane.sofiane@gmail.com" target="_blank">ait.otmane.sofiane@gmail.com</a></li>
+				<li>N°: 07 82 28 87 97</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<div class="sectionTitle">
+				<h1>Formations</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Université Claude-Bernard, Lyon</h2>
+					<p class="subDetails">2018-Auj</p>
+					<p>Master 2: Compétences complémentaires en informatique parcours systèmes d’information
+						pour la production</p>
+				</article>
+				
+				<article>
+					<h2>Université Pierre et Marie Curie, Paris</h2>
+					<p class="subDetails">2017-2018</p>
+					<p>Master 2: Science de l’ingénieur, spécialité Mécanique des fluides, Énergétique et
+						Environnement</p>
+				</article>
+				
+				<article>
+					<h2>Université du Maine, LE MANS</h2>
+					<p class="subDetails">2014-2015</p>
+					<p>Licence 3: Science pour l’ingénieur spécialité Mécanique</p>
+				</article>
+				<article>
+					<h2>Université de Blida, Algérie</h2>
+					<p class="subDetails">2013-2014</p>
+					<p>Licence 3: Science et technologie, spécialité Aéronautique à l’institut d’aéronautique</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section>
+			<div class="sectionTitle">
+				<h1>Experiences</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Stagiaire modélisation et simulation chez NAUDET</h2>
+					<p class="subDetails">Mars 2018 – Aout 2018</p>
+					<p> - Modélisation CAO</p>
+					<p> - Simulation mécanique, thermique et fluidique</p>
+					<p> - Rédaction des rapports techniques et la mise en forme des résultats.</p>
+					<p> Logiciels utilisés : Solidworks, abaqus, autoCAD et Xflow.</p>
+				</article>
+				
+				<article>
+					<h2>Stagiaire à l’institut Jean Le Rond d’Alembert : « Interaction fluide structure »</h2>
+					<p class="subDetails">Janruary 2007 - March 2011</p>
+					<p> - Etude bibliographique, modélisation et simulation sur BASILISK avec la méthode IBM et analyse des résultats.</p>
+					<p> - Logiciels utilisés : BASILISK (logiciel basé sur le C), Paraview et Gnuplot.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Compétences</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Java, C</li>
+					<li>XML, HTML, CSS</li>
+					<li>ERP et SAP</li>
+					<li>Oracle, SQL</li>
+					<li>UML, Merise</li>
+					<li>Web service</li>
+					<li>Visualisation Homme Machine</li>
+					<li>PLM, PDM</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Langues</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<li>Français : Courant</li>
+					<li>Anglais: Moyen</li>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Centre d’intérêt</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Job étudiant (Agent de sécurité, inventoriste, Agent d’accueil….)</p>
+					<p>Mouvement associatif</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+	</div>
+</div>
+
+</body>
 </html>
