@@ -1,10 +1,11 @@
 window.addEventListener("scroll", function(){
-	var deplacement=(window.scrollY+window.innerHeight)*80/document.body.offsetHeight;
+	let deplacement=(window.scrollY /(document.body.offsetHeight-window.innerHeight))*100;
 document.getElementById('progress_bar').value=deplacement;
-})
+console.log(deplacement);
+});
 
 function myScroll() {
-	var progress = document.getElementById('progress_bar').value;
-	progress=progress*document.body.offsetHeight*80-window.innerHeight;
-	window.scroll(0,progress) ;
+	var progress_bar = document.getElementById('progress_bar').value;
+	var value = (progress_bar * (document.body.offsetHeight - window.innerHeight))/100;
+	window.scroll(0,value) ;
 }
